@@ -1,0 +1,123 @@
+.silderBox1,.silderBox2{
+	height: 200px;
+	width: 100%;
+	position: relative;
+    margin-top: 40px;
+}
+.infor{
+	font-size: 12px;
+	text-align: left;
+	line-height: 2em;
+    padding: 0 0 20px 0;
+}
+.infor .content{
+	width: 40%;
+	display: inline-block;
+}
+.infor .content:last-child{
+	margin-left: 20%;
+	float: right;
+}
+.inforTitle{
+	line-height: 3em;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.author{
+	line-height: 3em;
+	font-size: 14px;
+	font-weight: bolder;
+	float: right;
+}
+.inforSlider{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.inforSlider>li{
+	height: 100%;
+	position: absolute;
+}
+.inforSlider>li>a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.arr-l,.arr-r{
+    display: inline-block;
+    height: 55px;
+    padding: 15px 0;
+    width: 30px;
+    background: rgba(228, 89, 112, 0.6);
+    cursor: pointer;
+}
+.arr-l{
+	left: 0;
+}
+.arr-r{
+	right: 0;
+}
+
+
+.constituList{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+.constituContent{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	margin-left: 10%;
+	float: right;
+}
+.constituList>li{    
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #000;
+	transition:all .5s;
+}
+.constituList>li:hover,.constituList>li.active{
+	background-color:#e45970;
+	color: #ffffff;
+}
+.constituContent>li{
+	height: 400px;
+	overflow: auto;
+}
+.vip{
+    line-height: 2em;    
+    margin-bottom: 40px;
+}
+.vipContentLeft{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+.vipContentRight{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	margin-left: 10%;
+	float: right;
+}
+.download{
+	font-size: 20px;
+	color: #e45970;
+	float: left;
+	border-bottom: 1px solid #e45970;
+}
+.downloadBox{
+	width: 100%;
+
+}
+.vipbook{
+	padding-top: 40px;
+}
+/*# sourceMappingURL=introduce.css.map*/

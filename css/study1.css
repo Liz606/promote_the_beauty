@@ -1,0 +1,83 @@
+.constituList{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	float: left;
+}
+.constituContent{
+	text-align: left;
+	width: 45%;
+	display: inline-block;
+	margin-left: 10%;
+	float: right;
+}
+.constituList>li{    
+	padding-left: 20px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #ffffff;
+	cursor: pointer;
+	color: #000;
+	transition:all .5s;
+}
+.constituList>li:hover,.constituList>li.active{
+	background-color:#e45970;
+	color: #ffffff;
+}
+.constituContent>li{
+	height: 400px;
+	overflow: auto;
+}
+.studyContent{
+    width: 100%;
+    margin-bottom: 40px;
+    line-height: 1.8em;
+}
+
+.newsListBox{
+    text-align: left;
+    font-size: 0;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+}
+.newsItem{
+	display: inline-block;
+	height: 350px;
+	width: 45%;    
+    margin: 20px 2.5%;
+}
+.newsItem p{
+	font-size: 12px;
+	line-height: 2em;
+	text-align: left;
+}
+.newsItem p.newsItemTitle{
+	margin-top: 10px;
+	font-size:14px; 
+	font-weight: bolder;
+}
+.newsItemPic{
+	height: 280px;
+	width: 100%;
+}
+.pages{
+	font-size: 0;    
+	margin: 20px auto;
+}
+.pages>li{
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    border: 1px solid #c0c0c0;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pages>li:hover,.page.active{
+	background-color:#e45970;
+	color: #ffffff;
+}
+
+/*# sourceMappingURL=study1.css.map*/

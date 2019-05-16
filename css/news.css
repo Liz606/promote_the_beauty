@@ -1,0 +1,98 @@
+.newsSlider{
+	height: 270px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.newsSlider>li{
+	height: 100%;
+	position: absolute;
+}
+.newsSlider>li>a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.arr-l,.arr-r{
+    display: inline-block;
+    height: 55px;
+    padding: 15px 0;
+    width: 30px;
+    background: rgba(228, 89, 112, 0.6);
+    cursor: pointer;
+}
+.arr-l{
+	left: 0;
+}
+.arr-r{
+	right: 0;
+}
+.newsPicList{
+	width: 100%;
+	height: 350px;
+}
+.newsPicList>li{
+    width: 16.65%;
+	height: 100%;
+	float: left;
+}
+.newsContent{
+	text-align: left;
+	line-height: 2em;
+}
+.newsContent>p{
+	margin:2em 0; 
+}
+.newPinkTitle{
+	text-align: left;
+}
+
+
+.newsListBox{
+    text-align: left;
+    font-size: 0;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+}
+.newsItem{
+	display: inline-block;
+	height: 350px;
+	width: 45%;    
+    margin: 20px 2.5%;
+}
+.newsItem p{
+	font-size: 12px;
+	line-height: 2em;
+	text-align: left;
+}
+.newsItem p.newsItemTitle{
+	margin-top: 10px;
+	font-size:14px; 
+	font-weight: bolder;
+}
+.newsItemPic{
+	height: 280px;
+	width: 100%;
+}
+
+.pages{
+	font-size: 0;    
+	margin: 20px auto;
+}
+.pages>li{
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 0 15px;
+    border: 1px solid #c0c0c0;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.pages>li:hover,.page.active{
+	background-color:#e45970;
+	color: #ffffff;
+}
+/*# sourceMappingURL=news.css.map*/

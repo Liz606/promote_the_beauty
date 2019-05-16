@@ -1,0 +1,15 @@
+.newsDetailsContent p{
+	line-height: 2em;
+	text-align: left;
+	font-size: 12px;
+	margin:2em 0;
+}
+.newsDetailsContent p.p-newTitle{
+	text-align: center;
+	font-size:14px;
+	font-weight: bold;
+}
+.newsDetailsContent p.p-newDate{
+	text-align: center;
+}
+/*# sourceMappingURL=Details.css.map*/

@@ -1,0 +1,30 @@
+.expertName{
+	font-size: 18px;
+	border-bottom: 1px solid #c0c0c0;
+	color: #e45970;
+	text-align: left;
+    height: 2em;
+    line-height: 2em;
+}
+.expertImg{
+	width: 30%;
+	float: right;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+.expertInfor{
+	width: 65%;
+	float: left;
+	text-align: left;
+	font-size: 12px;
+	line-height: 2em;
+	margin-bottom: 40px;
+}
+.expertInfor>p{
+	margin:10px 0;
+}
+.expertInfor .inforTitle{
+	font-weight: bolder;
+}
+
+/*# sourceMappingURL=expert.css.map*/
